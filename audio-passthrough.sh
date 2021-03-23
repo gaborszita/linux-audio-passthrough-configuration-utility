@@ -3,9 +3,9 @@
 # GUI source: https://www.howtogeek.com/435020/how-to-add-a-gui-to-linux-shell-scripts/
 # Linux audio passthrough idea: https://askubuntu.com/questions/123798/how-to-hear-my-voice-in-speakers-with-a-mic
 
-windowtitle="Audio Passthrough Configuration Tool"
+windowtitle="Audio Passthrough Configuration Utility"
 
-if pactl list modules | grep -q module-loopback 
+if pactl list modules | grep -q module-loopback
 then
     zenity --question --width 300 --text "Playback module is loaded. Would you like to unload the playback module? (I.e. stop audio passthrough?)" --title="$windowtitle"
     if [ $? -eq 0 ];
