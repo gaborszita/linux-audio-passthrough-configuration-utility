@@ -6,7 +6,7 @@ This utility allows you to pass audio on from a microphone to a speaker to linux
 
 1. Install PulseAudio Volume Control
 
-   ```sudo apt install pavucontrol```
+   ```sudo apt-get install pavucontrol```
 
 2. Download the audio-passthrough.sh file either by simply downloading it or cloning this repository. For newbies, I suggest creating a new file on your computer (it would be the best if you name that file also audio-passthrough.sh) and copying the contents of the audio-passthrough.sh file on github to the file you created.
 
